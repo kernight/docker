@@ -31,4 +31,4 @@ RUN echo "error_log = /mnt/php/log/error.log" > /usr/local/etc/php/conf.d/log.in
 
 #start
 EXPOSE 80
-CMD [ "php", "/mnt/php/start.php" ]
+#CMD [ "php", "/mnt/php/start.php" ]
